@@ -72,7 +72,7 @@ export default function App() {
         <h2>ecosystem choosen is {ecosystem}</h2>
         <p>here are my top picks for {ecosystem} devic</p>
 
-        <ul>
+        <ul style={{ listStyle: "none" }}>
           <li>
             {phone1} ,rating = {rating1}
           </li>
